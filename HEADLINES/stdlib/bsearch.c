@@ -10,7 +10,7 @@
 //       size_t m 指定查找表中每个元素的字节数
 //       int (*fc)(const void*, const void*) 一个函数的指针，此函数用来比较两个元素的大小
 // 返回值：如果找到元素则返回指向该元素的指针，否则返回NULL；
-
+ 
 // 程序例：实现二分法搜索元素456，并输出提示
 #include <stdio.h>
 #include <stdlib.h>
